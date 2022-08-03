@@ -22,7 +22,7 @@ Contents
 
 ## <a name="PreReq"></a> Pre-requisites 
 
-**mg\_bun** is an addon for Bun written in C, designed to work through the Bun Foreign Function Interface (FFI) which was released with Bun v1.13.  **mg\_bun** is distributed as C source code and the installation procedure will expect a C compiler to be present on the target system.
+**mg\_bun** is an addon for Bun written in C, designed to work through the Bun Foreign Function Interface (FFI).  **mg\_bun** is distributed as C source code and the installation procedure will expect a C compiler to be present on the target system.
 
 Linux systems can use the freely available GNU C compiler (gcc) which can be installed as follows.
 
