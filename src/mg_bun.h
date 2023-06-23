@@ -5,7 +5,7 @@
    |              and YottaDB API                                             |
    | Author:      Chris Munt cmunt@mgateway.com                               |
    |                         chris.e.munt@gmail.com                           |
-   | Copyright (c) 2021-2022 M/Gateway Developments Ltd,                      |
+   | Copyright (c) 2019-2023 MGateway Ltd                                     |
    | Surrey UK.                                                               |
    | All rights reserved.                                                     |
    |                                                                          |
@@ -30,20 +30,20 @@
 #define MG_BUN_H
 
 #define MAJORVERSION             1
-#define MINORVERSION             0
-#define MAINTVERSION             1
-#define BUILDNUMBER              1
+#define MINORVERSION             1
+#define MAINTVERSION             3
+#define BUILDNUMBER              3
 
 #define MGBUN_VERSION_MAJOR     "1"
-#define MGBUN_VERSION_MINOR     "0"
-#define MGBUN_VERSION_BUILD     "1"
+#define MGBUN_VERSION_MINOR     "1"
+#define MGBUN_VERSION_BUILD     "3"
 
 #define MGBUN_VERSION           MGBUN_VERSION_MAJOR "." MGBUN_VERSION_MINOR "." MGBUN_VERSION_BUILD
-#define MGBUN_COMPANYNAME       "M/Gateway Developments Ltd\0"
+#define MGBUN_COMPANYNAME       "MGateway Ltd\0"
 #define MGBUN_FILEDESCRIPTION   "API Abstraction for InterSystems IRIS/Cache and YottaDB\0"
 #define MGBUN_FILEVERSION       MGBUN_VERSION
 #define MGBUN_INTERNALNAME      "mg_bun\0"
-#define MGBUN_LEGALCOPYRIGHT    "Copyright 2021-2022, M/Gateway Developments Ltd\0"
+#define MGBUN_LEGALCOPYRIGHT    "Copyright 2021-2023, MGateway Ltd\0"
 #define MGBUN_ORIGINALFILENAME  "mg_bun\0"
 #define MGBUN_PLATFORM          PROCESSOR_ARCHITECTURE
 #define MGBUN_PRODUCTNAME       "mg_bun\0"

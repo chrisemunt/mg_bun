@@ -5,7 +5,7 @@
 //   | Description: An Interface to InterSystems Cache/IRIS and YottaDB         |
 //   | Author:      Chris Munt cmunt@mgateway.com                               |
 //   |                         chris.e.munt@gmail.com                           |
-//   | Copyright (c) 2021-2022 M/Gateway Developments Ltd,                      |
+//   | Copyright (c) 2021-2023 MGateway Ltd                                     |
 //   | Surrey UK.                                                               |
 //   | All rights reserved.                                                     |
 //   |                                                                          |
@@ -29,8 +29,8 @@
 import { dlopen, FFIType, suffix, ptr, CString, toArrayBuffer } from "bun:ffi";
 
 const DBX_VERSION_MAJOR: number     = 1;
-const DBX_VERSION_MINOR: number     = 0;
-const DBX_VERSION_BUILD: number     = 1;
+const DBX_VERSION_MINOR: number     = 1;
+const DBX_VERSION_BUILD: number     = 3;
 
 const DBX_DSORT_INVALID: number     = 0;
 const DBX_DSORT_DATA: number        = 1;
